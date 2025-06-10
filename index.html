@@ -103,7 +103,7 @@ $(document).ready(function(){
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#curriculum">Curriculum</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#teample1">TeamProject Ⅰ</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#teample2">TeamProject Ⅱ</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#teample2">TeamProject Ⅱ</a></li> -->
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://yoohyeok.github.io/TPFPA/" target="_blank">TeamProject</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
@@ -146,7 +146,8 @@ $(document).ready(function(){
                     
                     <p style="font-family: 'noto sans'; font-size: 17px; font-weight : Regular; margin: 0 0 40px 0;">
                         SKT의 영업 전산 시스템인 SWING의 개발 및 운영을 담당하며 <b>실시간 업무 처리와 안정적인 서비스 제공</b>을 위한 업무를 수행하고 있습니다. <br/>
-                        개발 언어로는 <b>C, Pro*C, JavaScript</b>이며 프레임워크는 <b>ProFrame과 WebSquare</b>를 기반으로 화면 및 백엔드 로직을 구현하고 있습니다. </p>
+                        개발 언어로는 <b>C, Pro*C, JavaScript</b>이며 프레임워크는 <b>ProFrame과 WebSquare</b>를 기반으로 화면 및 백엔드 로직을 구현하고 있습니다. </p> <br/>
+                        또한 현업 부서로부터의 데이터 추출 요청에 따라 SQL 쿼리를 작성하고 최적화하여 원하는 데이터를 전달하고 있습니다.
                     <div class="social-icons">
                         <a style="width:44px; height: 44px;" class="social-icon" href="https://onnnzeoz.tistory.com/" target="_blank"><i class="fas fa-blog" ></i></a>
                         <a style="width:44px; height: 44px;" class="social-icon" href="https://github.com/choi-nyeong?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
@@ -165,11 +166,11 @@ $(document).ready(function(){
                     <h3 class="mb-5 font-titWeb text-pupple">디투엘(주)<span style="font-size:25px; color:gray;"> 2023.07.01-재직중</span>
                         <br/>
                     </h3>
-                    <span class="font-titWeb text-primary" style="font-size:27px; "><b>SKT 영업전산시스템 SWING의 개발 및 운영</b></span><br/>
+                    <span class="font-titWeb text-primary" style="font-size:27px; "><b>SKT 영업전산시스템 SWING의 개발 및 운영</b></span><br><br>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h4 class="mb-1 font-noto">요금납부리포트 개발</h4>
-                            <span class="text-pupple font-titWeb"> 2025.01 - 2025.05</span><br/>
+                            <span class="text-pupple font-titWeb"> 2025.01 - 2025.05</span><br>
                             <b>■ 수행 업무</b>
                             <div class="subheading font-noto" style="font-size:15px;">&nbsp; - 요금납부리포트 화면 개발 및 통계 로직 개선  </div>
                             <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; [개요] SKT의 전산운영 시스템(SWING) 내 통신 요금 납부 데이터를 집계 및 조회할 수 있는 내부용 리포트 화면 개발</div>
@@ -197,9 +198,9 @@ $(document).ready(function(){
                             <b>■ 수행 업무</b>
                             <div class="subheading font-noto" style="font-size:15px;">&nbsp; - 신용회복위원회 연계 파일 업로드 기능 개발</div>
                             <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [개요] SKT와 신용회복위원회 간 협력 사업의 일환으로, 장기 미납 고객의 분할 납부 관리를 지원하기 위해 데이터 업로드 기능을 개발  </div>
-                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [설계] 신용회복위원회로부터 매월 전달받는 고객 채납/분납 정보 파일(이름, 채납금액, 분납액 등)을 시스템에 등록할 수 있도록 업로드 화면 및 데이터 처리 흐름을 설계  </div>
-                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [구현] 담당자가 업로드 버튼을 클릭하면 온디맨드 배치가 즉시 실행되어 파일을 파싱하고, TP를 통해 데이터를 DB에 반영하며, 이후 해당 고객 정보를 화면에서 조회할 수 있도록 구현  </div>
-                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [검증] 이미 동일한 이름의 파일이 업로드된 이력이 있을 경우 중복 처리를 방지하기 위해, 사전 검증을 통해 사용자에게 업로드 차단 메시지를 제공</div>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [설계] 신용회복위원회로부터 매월 전달받는 고객 채납 정보 파일(이름, 채납금액, 분납액 등)을 시스템에 등록하는 업로드 화면 및 데이터 처리 흐름을 설계  </div>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [구현] 업로드 버튼을 클릭 시 온디맨드 배치가 실행되어 파일을 파싱하고 TP를 통해 데이터를 DB에 반영. 이후 화면에서 조회할 수 있도록 구현  </div>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [검증] 이미 동일한 이름의 파일이 업로드된 이력이 있을 경우 중복 처리를 방지하기 위해 사전 검증을 통해 사용자에게 업로드 차단 메시지를 제공</div>
 
                             <b>■ 주요 성과</b>
                             <div class="subheading font-noto" style="font-size:15px;">&nbsp; - 개발 전 WBS 진행률 파악 및 통합 테스트를 진행하였습니다.</div>
@@ -218,7 +219,7 @@ $(document).ready(function(){
                             
                             <b>■ 수행 업무</b>
                             <div class="subheading font-noto" style="font-size:15px;">&nbsp; - 장기 휴일 동안 자동으로 파일을 백업할 수 있는 배치 시스템 설계 및 구현</div>
-                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [개요] 운영 중인 공용 서버의 특정 파일들이 Cutting Rule에 따라 5일이 지나면 자동 삭제되는 구조에서, 장기 연휴(예: 설, 추석 등)에 대비해 파일을 사전에 자동 백업하도록 설계</div>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [개요] 공용 서버의 특정 파일들이 Cutting Rule에 따라 5일이 지나면 자동 삭제되는 구조에서, 장기 연휴에 대비해 파일을 사전에 자동 백업하도록 설계</div>
                             <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [설계] 백업 대상 파일명을 쉘 스크립트에서 지정하고, C언어 기반 배치 프로그램에서 `tm` 구조체를 활용해 날짜 계산 로직을 적용</div>
                             <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [구현] `cp`, `mv` 명령어를 내부 함수로 처리하여 리눅스 커맨드라인을 자동 실행, 지정한 백업 폴더로 날짜별 파일을 자동 이관</div>
                             <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [검증] 백업 대상 파일명 및 날짜 중복 여부를 사전 확인하여, 중복 백업이나 누락이 없도록 파일 존재 여부 검사 및 예외 처리 구현</div>
@@ -234,7 +235,25 @@ $(document).ready(function(){
                         <div class="flex-shrink-0"><span class="text-pupple font-titWeb"></span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
-<!--여기기-->
+                        <div class="flex-grow-1">
+                            <h4 class="mb-1 font-noto">상품권 전송 I/F 개발</h4>
+                            <span class="text-pupple font-titWeb">2024.03 - 2024.04</span><br/>
+                        
+                            <b>■ 수행 업무</b>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp; - 영업점별 등록된 상품권 데이터를 외부 채널로 전송하기 위한 파일 기반 인터페이스 개발</div>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [개요] 영업점에서 등록한 상품권의 권종 및 수량 정보를 외부 기관에 전송하기 위한 연동용 I/F 시스템을 구축</div>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [설계] 고객 요구사항에 따라 전문 레이아웃 및 각 필드의 글자 수를 세부 정의하고, 전문 마지막에 고유 코드를 부여하여 다중 파일 구분 처리 가능하도록 설계</div>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [구현] 영업장별 등록 데이터를 기반으로 송신 파일을 생성하고, 내부 배치를 통해 EAI 연계 시스템으로 파일을 자동 전달되도록 구현</div>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp; - [검증] 배포 후 외부 기관 담당자와 커뮤니케이션하며 송신 테스트 및 검증을 수행하고 전문 포맷 오류 및 예외 처리 사항 조율</div>
+                        
+                            <b>■ 주요 성과</b>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp; - 하나의 I/F로 다수의 파일을 구분·송신할 수 있도록 전문 구조를 유연하게 설계하여 운영 효율성 확보</div>
+                            <div class="subheading font-noto" style="font-size:15px;">&nbsp; - 외부 채널과의 실시간 송신 테스트 및 협업을 통해 안정적인 전송 환경을 구축</div>
+                        
+                            <b>■ Skill</b>
+                            <p>C / Batch / EAI / WebSquare </p>
+                        </div>
+                        
                         <div class="flex-shrink-0"><span class="text-pupple font-titWeb"></span></div>
                     </div>
                     <br>
@@ -579,7 +598,7 @@ $(document).ready(function(){
                                 ☞ DB: MariaDB<br/>
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-pupple font-titWeb">December 2022 - January 2023</span></div>
+                        <div class="flex-shrink-0"><span class="text-pupple font-titWeb">March 2023 - April 2023</span></div>
                     </div>
                 	<!-- <div class="subheading mb-3 font-noto">개발환경</div>
                     <ul class="fa-ul mb-0">
